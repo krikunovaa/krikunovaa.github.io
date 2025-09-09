@@ -1,12 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FashionStore - Главная</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>jj</p>
+    <header>
+        <h1>FashionStore</h1>
+        <p>Стильная одежда для каждого</p>
+    </header>
+
+    <nav>
+        <button onclick="location.href='page1.html'">Главная</button>
+        <button onclick="location.href='page2.html'">Каталог</button>
+        <button>О нас</button>
+        <button>Контакты</button>
+    </nav>
+
+    <main>
+        <h2>Популярные товары</h2>
+        <div class="products">
+            <div class="product">
+                <img src="203928.635x953@2x.jpg" alt="Футболка">
+                <h3>Футболка классическая</h3>
+                <p>999 руб.</p>
+                <button>Купить</button>
+            </div>
+            <div class="product">
+                <img src="526f1965732d24b781a1d5eb99fad2ab1418d85a_original.jpeg" alt="Джинсы">
+                <h3>Джинсы </h3>
+                <p>2499 руб.</p>
+                <button>Купить</button>
+            </div>
+            <div class="product">
+                <img src="fdde6667-93a8-11ee-8b95-00505683661b.jpg" alt="Куртка">
+                <h3>Куртка весенняя</h3>
+                <p>3999 руб.</p>
+                <button>Купить</button>
+            </div>
+        </div>
+    </main>
+ 
+    <footer>
+        <p>© 2024 FashionStore. Все права защищены.</p>
+        <button onclick="location.href='page2.html'">Перейти в каталог →</button>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
